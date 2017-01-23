@@ -1,14 +1,38 @@
 body {
-	background: lightblue;
+	background-image: url('images/bannerBlur.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
 	width: 100%;
 	margin: 0;
 	padding: 0;
 	text-align: center;
+	font-size: 200px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#banner {
+	height: 100vh;
+}
+
+#logo {
+	background-color: rgba(0, 0, 0, 0.6);
+	padding: 15px;
+	font-size: 40%;
+	color: white;
+	width: 285px;
+	height: 285px;
 }
 
 #profiles {
-	width: 50%;
-	margin: auto;
+	background-color: lightgray;
 }
 
 #profiles img {
