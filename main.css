@@ -95,8 +95,8 @@ body {
 
 #profiles {
 	background-color: lightgray;
-	height: 100vh;
-	padding-top: 35px;
+	min-height: 100vh;
+	font-size: 10%;
 }
 
 #profiles img {
@@ -104,5 +104,19 @@ body {
 	height: 150px;
 	object-fit: cover;
 	border-radius: 50%;
-	padding: 20px;
+	padding: 50px 25px;
+	transition: transform 0.5s;
+}
+
+#profiles img:hover {
+	transform: rotate(360deg);
+	cursor: pointer;
+}
+
+#kDescription {
+	opacity: 0;
+}
+
+#mDescription {
+	opacity: 0;
 }
