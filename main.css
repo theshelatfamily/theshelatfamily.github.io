@@ -8,7 +8,13 @@ body {
 	margin: 0;
 	padding: 0;
 	text-align: center;
+	font-family: 'Merriweather', serif;
 	font-size: 200px;
+}
+
+@keyframes fadeOut {
+	from {opacity: 1;}
+	to {opacity: 0;}
 }
 
 .centered {
@@ -23,16 +29,69 @@ body {
 }
 
 #logo {
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: rgba(200, 200, 200, 0.6);
 	padding: 15px;
 	font-size: 40%;
 	color: white;
 	width: 285px;
 	height: 285px;
+	font-family: 'Roboto Slab', serif;
+}
+
+#K {
+	position: absolute;
+	top: 1px;
+	left: 20px;
+}
+
+#M {
+	position: absolute;
+	top: 1px;
+	right: 20px;
+}
+
+#N {
+	position: absolute;
+	bottom: 1px;
+	left: 20px;
+}
+
+#S {
+	position: absolute;
+	bottom: 1px;
+	right: 20px;
+}
+
+#strikethrough {
+	font-family: Helvetica, serif;
+	font-size: 250%;
+}
+
+#centerLetter {
+	font-size: 200%;
+}
+
+#enterButton {
+	font-size: 12%;
+	color: white;
+	position: absolute;
+	bottom: 2%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-style: solid;
+	padding: 8px;
+	transition: border-radius 0.7s, bottom 0.7s;
+}
+
+#enterButton:hover {
+	cursor: pointer;
+	bottom: 3%;
+	border-radius: 15px;
 }
 
 #profiles {
 	background-color: lightgray;
+	height: 100vh;
 }
 
 #profiles img {
