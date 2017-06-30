@@ -1,0 +1,21 @@
+body {
+	cursor: default;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+#home-button {
+	color: white;
+}
+
+#home-button:hover {
+	color: #cccccc;
+}
+
+img {
+	padding-top: 10%;
+}
+
+#footer {
+	padding-left: 5%;
+}
