@@ -7,7 +7,7 @@ body {
 #jumbo {
 	background-image: url("media/banner-blur.jpg");
 	background-position: center;
-	object-fit: contain;
+	background-repeat: none;
 }
 
 #jumbo-text {
